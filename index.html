@@ -6,4 +6,44 @@
         <link rel="stylesheet" href="styles.css">
         <title>Sign-up Form</title>
     </head>
+    <body>
+        <div class="sign-up">
+            <div class="fancy-image">
+                <img src="background_img.jpg" id="bag-img">
+                <p id="company-ad">Humanity First!</p>
+                <p id="credit">Photo by <u>Helie West</u> on <u>Unsplash</u></p>
+            </div>
+            <form>
+                <div class="col-1">
+                    <div class="first-name-div">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" placeholder="Dipesh" name="first_name">
+                    </div>
+                    <div class="email-div">
+                        <label for="user_email">EMAIL</label>
+                        <input type="email" id="user_email" name="email" placeholder="you@gmail.com">
+                    </div>
+                    <div class="password-div">
+                        <label for="user_password">PASSWORD</label>
+                        <input type="password" id="user_password" name="password">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="last-name-div">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" placeholder="Thakur" name="last_name">
+                    </div>
+                    <div class="phone-num-div">
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="tel" id="phone_number" name="phone_number" placeholder="+977 9813562033" pattern="^\+977\s9\d{9}$">
+                    </div>
+                    <div class="confirm-password-div">
+                        <label for="confirm_password">PASSWORD</label>
+                        <input type="password" id="confirm_password" name="confirm_password">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </body>
 </html>

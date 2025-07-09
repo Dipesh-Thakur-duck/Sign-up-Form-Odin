@@ -3,3 +3,35 @@
     padding:0;
     box-sizing:border-box;
 }
+.sign-up{
+    display:flex;
+    
+}
+.fancy-image{
+    width:40vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    position:relative;
+}
+#bag-img{
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+#company-ad{
+    color:white;
+    background-color:black;
+    opacity:0.6;
+    font-size:30px;
+    width:100%;
+    text-align: center;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+#credit{
+    color:white;
+}
